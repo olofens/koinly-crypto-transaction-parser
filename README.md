@@ -1,5 +1,8 @@
 # koinly-crypto-transaction-parser
-Pulls all your crypto transactions from Koinly and parses them into an excel spreadsheet in a human-readable way. 
+Pulls all your crypto transactions from Koinly and parses them into an excel spreadsheet in a human-readable way.
+
+## UPDATE
+Now can also parse your transactions to tax-friendly excel sheet. 
 
 ### Why? 
 When for example needing to withdraw larger sums of money from crypto exchanges to your traditional bank account you
