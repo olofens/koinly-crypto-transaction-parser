@@ -4,6 +4,10 @@ Pulls all your crypto transactions from Koinly and parses them into an excel spr
 ## UPDATE
 Now can also parse your transactions to tax-friendly excel sheet. 
 
+## PLEASE NOTE
+Use at your own risk -- do not rely on some stranger's code on github to extract proper documents. There may be bugs. 
+Feel free to use as a starting point for your own more specific use case. 
+
 ### Why? 
 When for example needing to withdraw larger sums of money from crypto exchanges to your traditional bank account you
  will need to provide the bank with a complete transaction history such that they can be confident that the incoming money 
