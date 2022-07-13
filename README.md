@@ -34,3 +34,27 @@ the resulting excel spreadsheet will go provide your authorities with all they n
 * Run the transactions-getter.py script to get all the data (stores it in a local json file)
 * Run the transaction-parser.py script (parses the stored json file into a spreadsheet)
 * Done!
+
+Example copied headers
+```
+headers = {
+    'authority': 'api.koinly.io',
+    'caches-requests': '1',
+    'x-csrf-token': 'csrf token',
+    'x-portfolio-token': 'portfolio token',
+    'sec-ch-ua-mobile': '?0',
+    'user-agent': 'user agent',
+    'accept': 'application/json, text/plain, */*',
+    'x-auth-token': 'your auth token',
+    'access-control-allow-credentials': 'true',
+    'sec-ch-ua': '" Not;A Brand";v="99", "Google Chrome";v="97", "Chromium";v="97"',
+    'sec-ch-ua-platform': '"macOS"',
+    'origin': 'https://app.koinly.io',
+    'sec-fetch-site': 'same-site',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-dest': 'empty',
+    'referer': 'https://app.koinly.io/',
+    'accept-language': 'sv-SE,sv;q=0.9,en-US;q=0.8,en;q=0.7',
+    'cookie': 'your cookie',
+}
+```
